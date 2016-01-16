@@ -22,7 +22,7 @@
 <p>working together to keep the Internet alive and accessible </p>
 <p> Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozzila Manifesto</a>to lean even more about the values and principles that guide the pursuitof our mission.</p>
 
-<button>Change user</button>
+
 
 <script src="scripts/main.js"></script>
 </body>
