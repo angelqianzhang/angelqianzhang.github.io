@@ -1,16 +1,104 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StAlbans-Daycare</title>
   <LINK href="styles.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'> 
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'> 
+  <link href='//fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'> 
 </head>
 
 <body>
-<h1>Mozilla is cool</h1>
-<img src="flower.jpeg" id="octocat" alt="" />
+<header>
+<div id="logo" style="width:100%;">
+    <a href="http://angelqianzhang.github.io" rel="home">
+    <img src="logo.png" alt="St. Alban's Daycare">
+    </a>
+</div>
+</header>
+<nav class="navbar navbar-inverse navbar-default">
+   <div class="container-fluid">
+     <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+           <li class="active"><a href="http://angelqianzhang.github.io">
+               <span class="glyphicon glyphicon-home customer"></span>Home</a>
+            </li>         
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="/home">
+                <span class="glyphicon glyphicon-user customer"></span>About Us
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Our Teacher</a></li>
+                </ul>
+             </li>
+             <li><a href="#"><span class="glyphicon glyphicon-heart-empty customer"></span>Our Philosophy</a>
+             </li>
+             <li><a href="#"><span class="glyphicon glyphicon-list customer"></span>Parent Info</a>
+             </li>
+             <li><a href="#"><span class="glyphicon glyphicon-phone customer"></span>Contact Us</a>
+             </li>
+         </ul>
+       </div>
+</nav>
+      
+
+<h1 style="color:#FF8C00;text-align:center;font-size:50px;font-family:Chewy">Welcome to St. Alban's Daycare</h1>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="dandelion.jpeg" id="octocat" alt="Planting A Seed That Will Bloom Through Life">
+      <div class="carousel-caption">
+        <h3 style="font-family:'Sofia'; color:#FFFFFF; font-size:22px;">Planting A Seed That Will Bloom Through Life</h3>
+      </div>
+    </div>
+    
+
+    <div class="item">
+      <img src="flower.jpeg" id="octocat" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <p><a href="#">beautiful</a></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 <p>At Mozilla, we’re a global community of</p>
     
 <ul> 
@@ -22,7 +110,7 @@
 <p>working together to keep the Internet alive and accessible </p>
 <p> Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozzila Manifesto</a>to lean even more about the values and principles that guide the pursuitof our mission.</p>
 
-
+<button>Change user</button>
 
 <script src="scripts/main.js"></script>
 </body>
