@@ -44,7 +44,7 @@
                 <span class="glyphicon glyphicon-user customer"></span>About Us
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Our Teacher</a></li>
+                    <li><a href="/about">Our Teacher</a></li>
                 </ul>
              </li>
              <li><a href="#"><span class="glyphicon glyphicon-heart-empty customer"></span>Our Philosophy</a>
