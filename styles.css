@@ -7,57 +7,118 @@ html{
   font-size: 10px;
  /* font-family: 'Fjalla One', sans-serif;
   background-color:#00539F; */
+  background-image:url("back.png");
 }
 
 body{
- /* width:700px; */
+  width:85%; 
   margin:0 auto;
 /*  padding:0 20px 20px 20px; */
   background-color:#FFFFFF; 
-  border:1px solid black;
+/*  border:1px solid blue; */
   }
   
 
-  /*
+  
 h1{
+ /* color:#FFD700;*/
   color:#FF8C00;
- text-shadow: 3px 3px 1px black;
   text-align: center;
   font-size:50px;
+  font-size:50px;
+  padding-top: 50px; 
+  padding-bottom: 40px;
   }
-  */
+  
 #octocat {
   display: block; 
   width:900px; 
   height:500px;
- margin: 50px auto; 
+  margin: 50px auto; 
 }
 
+.navbar-default {
+  background-color:#2498DB;
+  border-color:#87CEFA;
+  color:#000000;
+  
+}
 
-#myCarousel .carousel-indicators {
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+.customer1 {
+  color:#000080;
+}
+
+.customer2 {
+  color:#FFA500; 
+}
+
+.customer3 {
+  color:#FF0000;
+}
+
+.customer4 {
+  color:#9ACD32;
+}
+
+.customer5 {
+  color:#FFFF00;
+}
+
+.carousel{
+    background: #FFFFFF;
+     
+}
+
+#myCarouse {
+            margin: 20px auto;
+            width: 400px;
+        }
+#myCarouse .carousel-indicators {
             margin: 10px 0 0;
             overflow: auto;
             position: static;
             text-align: left;
             white-space: nowrap;
             width: 100%;
-}
-        #myCarousel .carousel-indicators li {
-            
-            
+        }
+#myCarouse .carousel-indicators li {
+            background-color: transparent;
+            -webkit-border-radius: 0;
+            border-radius: 0;
             display: inline-block;
             height: auto;
             margin: 0 !important;
             width: auto;
+        }
+#myCarouse .carousel-indicators li img {
+            display: block;
+        }
+#myCarouse .carousel-outer {
+            position: relative;
+        }
+        
+.well {
+ /* background-color:#00bfff; */
+  background-color: #2498DB;
 }
-
-.navbar-default {
-  background-color:#AFEEEE;
-  border-color:#D3D3D3;
-  color:#000000;
-}
-.customer {
-  color:#FFA500; 
+.well li {
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 10%;
+  padding-top: 10px;
+  color:#FFFFFF;
+  
 }
 
 p,li {
