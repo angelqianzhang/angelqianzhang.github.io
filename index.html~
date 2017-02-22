@@ -69,7 +69,11 @@
       <img src="dandelion.jpeg" id="octocat" alt="Planting A Seed That Will Bloom Through Life">
       <div class="carousel-caption">
         <h3 style="font-family:'Sofia'; color:#FFFFFF; font-size:22px;">Planting A Seed That Will Bloom Through Life</h3>
+        <div class="col-md-12 text-center">
+           <a href=# class="btn btn-danger">Learn more about our philosophy</a>
       </div>
+      </div>
+      
     </div>
     
 
