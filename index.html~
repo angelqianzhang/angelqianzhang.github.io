@@ -64,20 +64,20 @@
        </div>
 </nav>
       
-
+<!--
 <h1 style="font-family:Chewy;">Welcome to St. Alban's Daycare</h1>
-
+-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   
  <div class="carousel-outer">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="dandelion2.jpeg" id="octocat" alt="Planting A Seed That Will Bloom Through Life">
+      <img src="lego.jpg" id="octocat" alt="Planting A Seed That Will Bloom Through Life">
       <div class="carousel-caption">
         <h3 style="font-family:'Sofia'; color:#FFFFFF; font-size:22px; top:50%; transform:translateY(-50%)">Planting A Seed That Will Bloom Through Life</h3>
         <div class="col-md-12 text-center">
-           <a href=# class="btn btn-danger">Learn more about our philosophy</a>
+           <a href=# class="btn btn-info">Learn more about our philosophy</a>
       </div>
       </div>
       
@@ -85,9 +85,9 @@
     
 
     <div class="item">
-      <img src="dandelion6.jpeg" id="octocat" alt="Chania">
+      <img src="drawing2.jpg" id="octocat" alt="Chania">
       <div class="carousel-caption">
-        <h3>Chania</h3>
+        <h3>Play,  Learn and Grow together</h3>
         <p><a href="#">beautiful</a></p>
       </div>
     </div>
@@ -115,7 +115,7 @@
 <div class="container text-left">
   <div class="row">
     <div class="col-md-12">
-      <p>St. Albans Daycare was established in 1974. We are a non-profit society that is administrated by a board of directors, operated by St. Albans Anglican Church.
+      <p><span style="font-weight: bold; font-size: 25px; ">St. Albans Daycare </span> was established in 1974. We are a non-profit society that is administrated by a board of directors, operated by St. Albans Anglican Church.
 
 We provide a fun and exciting learning environment, in which children learn through play. We are in contact with other agencies, to provide each child with the support and help that they may need. We teach weekly topics through stories, songs and hands on experiences. Activity areas include: pre-reading, pre-writing, math, science, creative and social skills.</p> 
      </div>
@@ -131,8 +131,8 @@ We provide a fun and exciting learning environment, in which children learn thro
           <li>1999 --- BC Centre for Ability In Recognition Award</li>
         </ul>
       </div>
-      <div class="col-sm-2">
-         <img src="award1.png" id="award" alt="award"> 
+      <div class="col-sm-2" style="transform: translate3d(0px, 20px, 0px)" >
+         <img src="award1.png" id="owl3" alt="award" > 
       </div>
    </div> 
 </div>  

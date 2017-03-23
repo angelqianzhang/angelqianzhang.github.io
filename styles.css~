@@ -5,9 +5,10 @@
 
 html{
   font-size: 10px;
- /* font-family: 'Fjalla One', sans-serif;*/
-  background-color:#87CEFA; 
- /* background-image:url("back.png");*/
+ /* font-family: 'Fjalla One', sans-serif;
+  background-color:#9ACD32; */
+  background-image:url("cloud.png");
+  
 }
 
 body{
@@ -52,6 +53,7 @@ h1{
   vertical-align: middle;
 /*  padding-top: 5px; */
   padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .navbar .nav > li > a{
@@ -134,18 +136,36 @@ h1{
   padding-top: 50px;
   color: #8B4513;
 }
-       
+
+@keyframes colorchange {
+  0% {background-color: red;}
+  25% {background-color: #9ACD32; color:#000000;}
+  50% {background-color: blue;}
+  75% {background-color: green;}
+  100% {background-color: red;}
+ }
+      
 .well-award{
  background-color:#FFC0CB; 
-
+ /* background-image:url("babyheart.jpg"); */
+ animation-name: colorchange;
+ animation-duration: 10s;
+ animation-iteration-count: infinite; 
 }
+
+
 .well li {
   text-align: left;
+  font-weight: bold;
   list-style-type: disc;
   padding-left: 10%;
   padding-top: 10px;
-  color:#8B4513;
+  color:#FFFFFF;
 
+}
+
+#owl3 {
+ transform: translate3d(0px, 20px, 0px);
 }
 
 p,li {
